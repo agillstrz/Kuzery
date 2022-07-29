@@ -954,6 +954,10 @@ video {
     grid-row-start: 2;
   }
 
+  .lg\:mt-28 {
+    margin-top: 7rem;
+  }
+
   .lg\:block {
     display: block;
   }
