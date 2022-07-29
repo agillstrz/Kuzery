@@ -739,6 +739,42 @@ video {
   background-color: transparent;
 }
 
+.bg-\[url\(\'foto\/1\.jpg\'\)\] {
+  background-image: url('foto/1.jpg');
+}
+
+.bg-\[url\(\'foto\/2\.jpg\'\)\] {
+  background-image: url('foto/2.jpg');
+}
+
+.bg-\[url\(\'foto\/3\.jpg\'\)\] {
+  background-image: url('foto/3.jpg');
+}
+
+.bg-\[url\(\'foto\/4\.jpg\'\)\] {
+  background-image: url('foto/4.jpg');
+}
+
+.bg-\[url\(\'foto\/5\.jpg\'\)\] {
+  background-image: url('foto/5.jpg');
+}
+
+.bg-\[url\(\'foto\/6\.jpg\'\)\] {
+  background-image: url('foto/6.jpg');
+}
+
+.bg-\[url\(\'foto\/7\.jpg\'\)\] {
+  background-image: url('foto/7.jpg');
+}
+
+.bg-\[url\(\'foto\/8\.jpg\'\)\] {
+  background-image: url('foto/8.jpg');
+}
+
+.bg-\[url\(\'foto\/9\.jpg\'\)\] {
+  background-image: url('foto/9.jpg');
+}
+
 .bg-\[url\(\'\/foto\/1\.jpg\'\)\] {
   background-image: url('/foto/1.jpg');
 }
@@ -773,10 +809,6 @@ video {
 
 .bg-\[url\(\'\/foto\/9\.jpg\'\)\] {
   background-image: url('/foto/9.jpg');
-}
-
-.bg-\[url\(\'https\:\/\/source\.unsplash\.com\/640x480\?model\'\)\] {
-  background-image: url('https://source.unsplash.com/640x480?model');
 }
 
 .bg-cover {
