@@ -632,16 +632,12 @@ video {
   z-index: 50;
 }
 
-.col-start-2 {
-  grid-column-start: 2;
-}
-
 .col-start-4 {
   grid-column-start: 4;
 }
 
-.row-start-2 {
-  grid-row-start: 2;
+.col-start-2 {
+  grid-column-start: 2;
 }
 
 .row-start-4 {
@@ -697,36 +693,8 @@ video {
   width: 100%;
 }
 
-.w-20 {
-  width: 5rem;
-}
-
-.w-11 {
-  width: 2.75rem;
-}
-
-.max-w-\[250px\] {
-  max-width: 250px;
-}
-
 .max-w-\[100px\] {
   max-width: 100px;
-}
-
-.max-w-\[px\] {
-  max-width: px;
-}
-
-.max-w-\[120px\] {
-  max-width: 120px;
-}
-
-.max-w-\[1\/2\] {
-  max-width: 1/2;
-}
-
-.max-w-\[200px\] {
-  max-width: 200px;
 }
 
 .max-w-\[300px\] {
@@ -789,54 +757,6 @@ video {
 
 .bg-transparent {
   background-color: transparent;
-}
-
-.bg-\[url\(\'\.\/foto\/1\.jpg\'\)\] {
-  background-image: url('./foto/1.jpg');
-}
-
-.bg-\[url\(\'\.\/foto\/2\.jpg\'\)\] {
-  background-image: url('./foto/2.jpg');
-}
-
-.bg-\[url\(\'\.\/foto\/3\.jpg\'\)\] {
-  background-image: url('./foto/3.jpg');
-}
-
-.bg-\[url\(\'\.\/foto\/4\.jpg\'\)\] {
-  background-image: url('./foto/4.jpg');
-}
-
-.bg-\[url\(\'\.\/foto\/5\.jpg\'\)\] {
-  background-image: url('./foto/5.jpg');
-}
-
-.bg-\[url\(\'\.\/foto\/6\.jpg\'\)\] {
-  background-image: url('./foto/6.jpg');
-}
-
-.bg-\[url\(\'\.\/foto\/7\.jpg\'\)\] {
-  background-image: url('./foto/7.jpg');
-}
-
-.bg-\[url\(\'\.\/foto\/8\.jpg\'\)\] {
-  background-image: url('./foto/8.jpg');
-}
-
-.bg-\[url\(\'\.\/foto\/9\.jpg\'\)\] {
-  background-image: url('./foto/9.jpg');
-}
-
-.bg-\[url\(\'\/foto\/6\.jpg\'\)\] {
-  background-image: url('/foto/6.jpg');
-}
-
-.bg-\[url\(\'foto\/6\.jpg\'\)\] {
-  background-image: url('foto/6.jpg');
-}
-
-.bg-\[url\(\'\.foto\/6\.jpg\'\)\] {
-  background-image: url('.foto/6.jpg');
 }
 
 .bg-cover {
@@ -1019,24 +939,12 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:col-start-2 {
-    grid-column-start: 2;
-  }
-
-  .md\:col-start-1 {
-    grid-column-start: 1;
-  }
-
-  .md\:col-start-4 {
-    grid-column-start: 4;
+  .md\:row-start-4 {
+    grid-row-start: 4;
   }
 
   .md\:row-start-2 {
     grid-row-start: 2;
-  }
-
-  .md\:row-start-4 {
-    grid-row-start: 4;
   }
 
   .md\:aspect-\[1\/1\] {
