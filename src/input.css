@@ -1,0 +1,23 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.menu{
+    @apply w-[30px] h-[3px] my-2 block bg-white;
+}
+.halo > span:nth-child(1){
+    @apply  rotate-45;
+}
+.halo > span:nth-child(2){
+    @apply scale-0;
+}
+.halo > span:nth-child(3){
+    @apply  -rotate-45;
+}
+
+.navbarfix{
+   @apply z-[9909] fixed bg-stone-400 bg-opacity-70;
+   backdrop-filter: blur(5px);
+}
